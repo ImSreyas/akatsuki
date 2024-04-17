@@ -13,8 +13,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model user {
-  id    String  @id @default(auto()) @map("_id") @db.ObjectId
-  email String  
-  name  String?
+model donators {
+  id            String  @id @default(auto()) @map("_id") @db.ObjectId
+  email         String  
+  name          String
+  imageUrl      String
+  pancardNo     String
+  totalDonation Int?
+}
+
+model organizations {
+  id            String @id @default(auto()) @map("_id") @db.ObjectId
+  email         String
+  name          String
+  imageUrl            String
+  totalDonationAmount String
 }
