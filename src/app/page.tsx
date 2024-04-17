@@ -1,21 +1,22 @@
-"use client"
-
 import { PrismaClient } from '@prisma/client'
 import React from 'react'
 
 const prisma = new PrismaClient();
 
-const Home = () => {
-  const handleClick  = async () => {
-    const data = await prisma.User.create({
-      email: "sreyas@gmail.com"
+const Home = async () => {
+  const get = async () => {
+    const data = prisma.user.create({
+      data: {
+        name: "sreyas",
+        email: "sreyas123@gmail.com"
+      }
     })
-    console.log(data);
   }
+  get();
 
   return (
     <div>
-      <button onClick={handleClick}>hello</button>
+      <button className='border rounded-sm px-6 py-2'>button</button>
     </div>
   )
 }
