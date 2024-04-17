@@ -5,7 +5,7 @@ import React from 'react'
 const prisma = new PrismaClient();
 
 const Home = async () => {
-  const user = await auth();
+  // const user = auth();
 
   const putUser = async () => {
     prisma.$connect();

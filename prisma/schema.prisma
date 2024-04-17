@@ -14,18 +14,18 @@ datasource db {
 }
 
 model users {
-  id            String  @id @default(auto()) @map("_id") @db.ObjectId
-  email         String  
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  email         String
   name          String
   type          String
   imageUrl      String
   pancardNo     String
   totalDonation Int?
+  Request       Request[]
 }
 
-
-model request {
-  id                  String @id @default(auto()) @map("_id") @db.ObjectId
-  owner               users @relation(fields: [ownerId], references: [id])
-  
+model Request {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  userId String
+  user   users  @relation(fields: [userId], references: [id])
 }
