@@ -9,7 +9,7 @@
 
 ## Link for the project
 
-[link to ppt](ppt-link)
+[link to ppt](./docs/Waste%20Control%20and%20food%20donation%20application.pptx)
 -communityEats
 
 ## Libraries used
