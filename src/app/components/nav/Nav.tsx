@@ -9,10 +9,10 @@ const Nav = () => {
             <Link href={"/"} className='px-4'>
                 Home
             </Link>
-            <Link href={"/requests"} className='px-5'>
+            <Link href={"/donation/request"} className='px-5'>
                 Request
             </Link>
-            <Link href={"/donate"} className='px-5'>
+            <Link href={"/donatio/donate"} className='px-5'>
                 Donate
             </Link>
             <Link href={"/history"} className='px-5'>
