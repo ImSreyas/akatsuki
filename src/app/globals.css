@@ -28,6 +28,10 @@ body {
 .cl-card{
   max-width: 90vw !important;
 }
+.first-section {
+  background-image: radial-gradient(circle at center center, transparent 0%,rgb(255,255,255) 99%),repeating-linear-gradient(0deg, rgba(163,163,163, 0.31) 0px, rgba(163,163,163, 0.31) 1px,transparent 1px, transparent 6px),repeating-linear-gradient(90deg, rgba(163,163,163, 0.31) 0px, rgba(163,163,163, 0.31) 1px,transparent 1px, transparent 6px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+  background-position: center;
+}
 
 @layer utilities {
   .text-balance {

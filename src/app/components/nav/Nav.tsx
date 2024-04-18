@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { SignOutButton } from "@clerk/nextjs";
 
 const Nav = () => {
   return (
@@ -9,7 +10,7 @@ const Nav = () => {
             <Link href={"/"} className='px-4'>
                 Home
             </Link>
-            <Link href={"/donation/request"} className='px-5'>
+            <Link href={"/"} className='px-5'>
                 Request
             </Link>
             <Link href={"/donatio/donate"} className='px-5'>
@@ -21,6 +22,11 @@ const Nav = () => {
             <Link href={"/profile"} className='px-5'>
                 Profile
             </Link>
+            <h4 className='px-5'>
+                <SignOutButton>
+                    <button>Sign out</button>
+                </SignOutButton>
+            </h4>
         </div>
     </nav>
   )
