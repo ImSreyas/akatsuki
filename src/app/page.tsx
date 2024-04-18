@@ -1,11 +1,9 @@
-import { UserProfile, auth ,SignOutButton} from '@clerk/nextjs'
 import { PrismaClient } from '@prisma/client';
 import React from 'react'
 
 const prisma = new PrismaClient();
 
 const Home = async () => {
-  // const user = auth();
 
   const putUser = async () => {
     prisma.$connect();
@@ -16,12 +14,11 @@ const Home = async () => {
       }
     })
   }
-  await putUser();
+  // putUser();
 
   return (
     <div>
-      <UserProfile />
-      <SignOutButton />
+      
     </div>
   )
 }

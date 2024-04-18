@@ -20,6 +20,9 @@ body {
   background-color: rgb(var(--background-rgb));
   font-weight: 500;
 }
+.cl-card{
+  max-width: 90vw !important;
+}
 
 @layer utilities {
   .text-balance {
