@@ -26,6 +26,6 @@ model users {
 
 model Request {
   id     String @id @default(auto()) @map("_id") @db.ObjectId
-  userId String
+  userId String @db.ObjectId
   user   users  @relation(fields: [userId], references: [id])
 }
