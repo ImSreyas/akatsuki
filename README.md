@@ -52,7 +52,7 @@ In summary, CommunityEats functions as a collaborative platform where users can 
 
 ## Libraries used
 - Next.js
-- Bun
+- Bun.js
 - Clerk
 - Prisma
 - MongoDb
