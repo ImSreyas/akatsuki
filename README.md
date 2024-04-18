@@ -1,4 +1,10 @@
 ## CommunityEats
+Welcome to CommunityEats, where every meal shared is a step towards a hunger-free world and every waste reused is a stride towards a cleaner, greener planet. Our mission is simple: to make society and the world a better place to live in by connecting those in need with those who have resources to spare.
+
+At the heart of CommunityEats are two main user roles: Requestors and Donators. Requestors can raise requests for food or specific types of waste, while Donators can fulfill these requests by providing either food items or recyclable materials.
+
+Whether it's a meal for a hungry individual or waste materials waiting to be repurposed, CommunityEats facilitates the exchange seamlessly. Requestors can specify their needs, from food items to recyclable waste, and Donators can contribute by providing either the requested items or monetary support.
+
 
 ## Team members
 
@@ -112,9 +118,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
