@@ -12,13 +12,18 @@
 [link to ppt](ppt-link)
 -communityEats
 
+## Libraries used
+- Node.js
+- Bun
+- Clerk
+- Prisma
+- MongoDb
 
-
-
+## How to configure
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## How to run
 
 First, run the development server:
 
