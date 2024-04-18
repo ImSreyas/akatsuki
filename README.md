@@ -44,7 +44,7 @@ ORM: Prisma is used as the ORM (Object-Relational Mapping) tool for CommunityEat
 
 By leveraging Next.js for both frontend and backend development, MongoDB for data storage, and Prisma for database access, CommunityEats is equipped to handle the complexities of managing donations, requests, and user interactions effectively. This technology stack enables easier donations, efficient waste management and allocation, and cost efficiency, aligning with the core objectives of the application to achieve zero hunger and waste reuse.
 
-## How project runs
+## How project works
 
 CommunityEats operates as a dynamic platform aimed at eradicating hunger and promoting waste reuse for the betterment of society and the environment. The system caters to two primary user roles: Requestors and Donators, facilitating the exchange of resources to fulfill essential needs and promote sustainability.
 
