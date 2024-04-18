@@ -25,6 +25,9 @@
 [link to ppt](ppt-link)
 -communityEats
 
+## Snapshots
+![ss](./docs/snapshots/home.png)
+
 
 
 
