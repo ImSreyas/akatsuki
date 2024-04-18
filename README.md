@@ -9,6 +9,19 @@
 
 ## Link for the project
 
+
+[link to ppt](./docs/Waste%20Control%20and%20food%20donation%20application.pptx)
+-communityEats
+
+## Libraries used
+- Node.js
+- Bun
+- Clerk
+- Prisma
+- MongoDb
+
+## How to configure
+
 [link to ppt](ppt-link)
 -communityEats
 
@@ -18,7 +31,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## How to run
 
 First, run the development server:
 
