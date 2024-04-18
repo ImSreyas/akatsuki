@@ -1,24 +1,18 @@
 import prisma from '@/utils/db';
-import { UserProfile, auth ,SignOutButton} from '@clerk/nextjs'
+import { auth } from '@clerk/nextjs';
+import { PrismaClient } from '@prisma/client';
 import React from 'react'
 
+// const prisma = new PrismaClient();
+
 const Home = async () => {
-  const user = await auth();
+  // const user = await auth();
 
-  const data = await  prisma.user.create({
-   data: {
-    email: "aswinko@gmail.com",
-     name: "Aswin",
-   }
 
-  
-
-  })
 
   return (
     <div>
-      <UserProfile />
-      <SignOutButton />
+      
     </div>
   )
 }
